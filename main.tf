@@ -13,6 +13,7 @@ resource "null_resource" "hello" {
   }
 
   provisioner "local-exec" {
-    command = "echo Hello"
+
+    command = "echo Hello World"
   }
 }
